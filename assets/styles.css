@@ -1,0 +1,75 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+/* Phan tu cha */
+.container {
+    width: 100%;
+    height: 800px;
+    background-color: pink;
+    /* De ap dung flex-box phai co display : flex*/
+    display: flex;
+    
+    /* flex-direction: row-reverse; Sap xep theo chieu ngang cua phan tu con */
+    /* flex-direction: column-reverse; Sap xep theo chieu doc cua phan tu con */
+    /* flex-wrap: wrap; */
+    
+    /* flex-wrap : phan tu con tren 1 hang khong du, tu dong chuyen sang hang khac */
+    /* justify-content can chinh phan tu con trong 1 hang */
+    /* justify-content: flex-start; Can le trai */
+    /* justify-content: flex-end; Can le phai */
+    /* justify-content: center; Can giua */
+    /* justify-content: space-between; Tu dong can deu phan tu, khoang cach 2 ben le = 0*/
+    /* justify-content: space-around; Can deu khoang cach cac item*/
+
+    /* 
+    + align-items :Can chinh phan tu trong mot cot
+    */
+    /* align-items: center; phan tu con can giua
+    align-items: flex-start; phan tu con can phan tren */
+    /* align-content: center; */
+    /* De su dung align-content phai can flex-warp */
+
+
+}
+/* Phan tu con */
+.box-1 {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    font-size: 40px;
+    color: white;
+    /* order:1; */
+    /* flex-grow: 1; Lap day phan tu cha theo chieu ngang */
+    /* flex-shrink: 0; Giu nguyen co dinh 1 phan tu */
+
+}
+.box-2 {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+    font-size: 40px;
+    color: white;
+    /* order:4; */
+    /* flex-grow:1; */
+}
+.box-3 {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    font-size: 40px;
+    color: white;
+    /* order:3; */
+    /* flex-grow:1; */
+}
+.box-4 {
+    width: 200px;
+    height: 200px;
+    background-color: violet;
+    font-size: 40px;
+    color: white;
+    /* order:2; */
+    /* flex-grow:1; */
+}
+
